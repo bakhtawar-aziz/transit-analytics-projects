@@ -1,0 +1,5 @@
+CarStatusID,StatusName
+1,Active
+2,In Shop
+3,Stored
+4,Retired

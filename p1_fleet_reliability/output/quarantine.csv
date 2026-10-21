@@ -1,0 +1,4 @@
+failure_id,vehicle_id,failure_date,system,severity,_ref,source,reason
+F000716,B9999,2025-04-20,Electrical,Minor,F000716,failures,unknown vehicle
+F001673,L8888,2025-01-03,Doors,Minor,F001673,failures,unknown vehicle
+F002221,X0001,2025-11-17,Electrical,Major,F002221,failures,unknown vehicle

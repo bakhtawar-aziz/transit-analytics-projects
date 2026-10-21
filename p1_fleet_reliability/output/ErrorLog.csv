@@ -1,0 +1,246 @@
+error_id,check,table,record_ref,field,issue,raw_value,action,severity
+1,DQ01-duplicate,daily_mileage,B1007|2025-11-30,vehicle_id+record_date,Duplicate vehicle-day,B1007|2025-11-30,Dropped (kept first),Medium
+2,DQ01-duplicate,daily_mileage,S1134|2025-04-14,vehicle_id+record_date,Duplicate vehicle-day,S1134|2025-04-14,Dropped (kept first),Medium
+3,DQ01-duplicate,daily_mileage,S1149|2025-10-07,vehicle_id+record_date,Duplicate vehicle-day,S1149|2025-10-07,Dropped (kept first),Medium
+4,DQ01-duplicate,daily_mileage,B1016|2025-08-28,vehicle_id+record_date,Duplicate vehicle-day,B1016|2025-08-28,Dropped (kept first),Medium
+5,DQ01-duplicate,daily_mileage,B1038|2025-03-09,vehicle_id+record_date,Duplicate vehicle-day,B1038|2025-03-09,Dropped (kept first),Medium
+6,DQ01-duplicate,daily_mileage,B1017|2025-07-04,vehicle_id+record_date,Duplicate vehicle-day,B1017|2025-07-04,Dropped (kept first),Medium
+7,DQ01-duplicate,daily_mileage,B1007|2025-12-07,vehicle_id+record_date,Duplicate vehicle-day,B1007|2025-12-07,Dropped (kept first),Medium
+8,DQ01-duplicate,daily_mileage,L1107|2025-08-16,vehicle_id+record_date,Duplicate vehicle-day,L1107|2025-08-16,Dropped (kept first),Medium
+9,DQ01-duplicate,daily_mileage,S1130|2025-05-30,vehicle_id+record_date,Duplicate vehicle-day,S1130|2025-05-30,Dropped (kept first),Medium
+10,DQ01-duplicate,daily_mileage,B1043|2025-12-28,vehicle_id+record_date,Duplicate vehicle-day,B1043|2025-12-28,Dropped (kept first),Medium
+11,DQ01-duplicate,daily_mileage,S1139|2025-03-27,vehicle_id+record_date,Duplicate vehicle-day,S1139|2025-03-27,Dropped (kept first),Medium
+12,DQ01-duplicate,daily_mileage,A1078|2025-09-13,vehicle_id+record_date,Duplicate vehicle-day,A1078|2025-09-13,Dropped (kept first),Medium
+13,DQ01-duplicate,daily_mileage,S1122|2025-04-22,vehicle_id+record_date,Duplicate vehicle-day,S1122|2025-04-22,Dropped (kept first),Medium
+14,DQ01-duplicate,daily_mileage,S1152|2025-09-03,vehicle_id+record_date,Duplicate vehicle-day,S1152|2025-09-03,Dropped (kept first),Medium
+15,DQ01-duplicate,daily_mileage,S1151|2025-08-05,vehicle_id+record_date,Duplicate vehicle-day,S1151|2025-08-05,Dropped (kept first),Medium
+16,DQ01-duplicate,daily_mileage,L1088|2025-10-28,vehicle_id+record_date,Duplicate vehicle-day,L1088|2025-10-28,Dropped (kept first),Medium
+17,DQ01-duplicate,daily_mileage,B1002|2025-01-24,vehicle_id+record_date,Duplicate vehicle-day,B1002|2025-01-24,Dropped (kept first),Medium
+18,DQ01-duplicate,daily_mileage,B1025|2025-03-02,vehicle_id+record_date,Duplicate vehicle-day,B1025|2025-03-02,Dropped (kept first),Medium
+19,DQ01-duplicate,daily_mileage,L1115|2025-06-19,vehicle_id+record_date,Duplicate vehicle-day,L1115|2025-06-19,Dropped (kept first),Medium
+20,DQ01-duplicate,daily_mileage,L1113|2025-01-05,vehicle_id+record_date,Duplicate vehicle-day,L1113|2025-01-05,Dropped (kept first),Medium
+21,DQ01-duplicate,daily_mileage,B1054|2025-12-20,vehicle_id+record_date,Duplicate vehicle-day,B1054|2025-12-20,Dropped (kept first),Medium
+22,DQ01-duplicate,daily_mileage,S1160|2025-06-09,vehicle_id+record_date,Duplicate vehicle-day,S1160|2025-06-09,Dropped (kept first),Medium
+23,DQ01-duplicate,daily_mileage,L1111|2025-09-28,vehicle_id+record_date,Duplicate vehicle-day,L1111|2025-09-28,Dropped (kept first),Medium
+24,DQ01-duplicate,daily_mileage,A1077|2025-12-09,vehicle_id+record_date,Duplicate vehicle-day,A1077|2025-12-09,Dropped (kept first),Medium
+25,DQ01-duplicate,daily_mileage,A1079|2025-04-30,vehicle_id+record_date,Duplicate vehicle-day,A1079|2025-04-30,Dropped (kept first),Medium
+26,DQ01-duplicate,daily_mileage,B1019|2025-08-02,vehicle_id+record_date,Duplicate vehicle-day,B1019|2025-08-02,Dropped (kept first),Medium
+27,DQ01-duplicate,daily_mileage,S1119|2025-02-28,vehicle_id+record_date,Duplicate vehicle-day,S1119|2025-02-28,Dropped (kept first),Medium
+28,DQ01-duplicate,daily_mileage,B1048|2025-09-02,vehicle_id+record_date,Duplicate vehicle-day,B1048|2025-09-02,Dropped (kept first),Medium
+29,DQ01-duplicate,daily_mileage,L1103|2025-05-30,vehicle_id+record_date,Duplicate vehicle-day,L1103|2025-05-30,Dropped (kept first),Medium
+30,DQ01-duplicate,daily_mileage,L1104|2025-10-07,vehicle_id+record_date,Duplicate vehicle-day,L1104|2025-10-07,Dropped (kept first),Medium
+31,DQ02-inconsistent,daily_mileage,B1023|2025-02-26,service_status,Non-standard label,in service,Standardised,Low
+32,DQ02-inconsistent,daily_mileage,B1048|2025-07-26,service_status,Non-standard label,in service,Standardised,Low
+33,DQ02-inconsistent,daily_mileage,A1081|2025-11-07,service_status,Non-standard label,in service,Standardised,Low
+34,DQ02-inconsistent,daily_mileage,A1085|2025-08-16,service_status,Non-standard label,in service,Standardised,Low
+35,DQ02-inconsistent,daily_mileage,B1001|2025-08-10,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+36,DQ02-inconsistent,daily_mileage,B1001|2025-09-15,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+37,DQ02-inconsistent,daily_mileage,B1001|2025-11-27,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+38,DQ02-inconsistent,daily_mileage,B1001|2025-12-26,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+39,DQ02-inconsistent,daily_mileage,B1004|2025-03-25,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+40,DQ02-inconsistent,daily_mileage,B1004|2025-05-01,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+41,DQ02-inconsistent,daily_mileage,B1004|2025-07-02,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+42,DQ02-inconsistent,daily_mileage,B1010|2025-04-12,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+43,DQ02-inconsistent,daily_mileage,B1010|2025-12-20,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+44,DQ02-inconsistent,daily_mileage,B1013|2025-10-07,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+45,DQ02-inconsistent,daily_mileage,B1016|2025-03-31,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+46,DQ02-inconsistent,daily_mileage,B1025|2025-11-21,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+47,DQ02-inconsistent,daily_mileage,B1031|2025-08-29,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+48,DQ02-inconsistent,daily_mileage,B1037|2025-10-16,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+49,DQ02-inconsistent,daily_mileage,B1040|2025-12-13,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+50,DQ02-inconsistent,daily_mileage,B1049|2025-10-30,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+51,DQ02-inconsistent,daily_mileage,B1049|2025-12-02,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+52,DQ02-inconsistent,daily_mileage,A1061|2025-04-11,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+53,DQ02-inconsistent,daily_mileage,A1063|2025-05-15,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+54,DQ02-inconsistent,daily_mileage,A1065|2025-02-01,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+55,DQ02-inconsistent,daily_mileage,A1065|2025-10-05,division,Division spelling differs from vehicle master,N. Garage,Replaced from vehicles master,Low
+56,DQ02-inconsistent,daily_mileage,A1073|2025-02-25,division,Division spelling differs from vehicle master,NORTH GARAGE,Replaced from vehicles master,Low
+57,DQ02-inconsistent,daily_mileage,A1075|2025-01-11,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+58,DQ02-inconsistent,daily_mileage,A1077|2025-12-11,division,Division spelling differs from vehicle master,north garage,Replaced from vehicles master,Low
+59,DQ02-inconsistent,daily_mileage,A1079|2025-09-22,division,Division spelling differs from vehicle master,NORTH GARAGE,Replaced from vehicles master,Low
+60,DQ02-inconsistent,daily_mileage,S1117|2025-05-02,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+61,DQ02-inconsistent,daily_mileage,S1117|2025-11-13,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+62,DQ02-inconsistent,daily_mileage,S1118|2025-11-20,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+63,DQ02-inconsistent,daily_mileage,S1118|2025-12-05,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+64,DQ02-inconsistent,daily_mileage,S1122|2025-04-14,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+65,DQ02-inconsistent,daily_mileage,S1122|2025-12-05,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+66,DQ02-inconsistent,daily_mileage,S1128|2025-10-19,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+67,DQ02-inconsistent,daily_mileage,S1129|2025-08-19,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+68,DQ02-inconsistent,daily_mileage,S1132|2025-01-22,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+69,DQ02-inconsistent,daily_mileage,S1133|2025-07-07,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+70,DQ02-inconsistent,daily_mileage,S1134|2025-09-05,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+71,DQ02-inconsistent,daily_mileage,S1135|2025-09-30,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+72,DQ02-inconsistent,daily_mileage,S1135|2025-12-02,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+73,DQ02-inconsistent,daily_mileage,S1138|2025-10-24,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+74,DQ02-inconsistent,daily_mileage,S1141|2025-03-25,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+75,DQ02-inconsistent,daily_mileage,S1141|2025-12-25,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+76,DQ02-inconsistent,daily_mileage,S1146|2025-05-08,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+77,DQ02-inconsistent,daily_mileage,S1146|2025-06-14,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+78,DQ02-inconsistent,daily_mileage,S1148|2025-07-20,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+79,DQ02-inconsistent,daily_mileage,S1148|2025-12-31,division,Division spelling differs from vehicle master,subway div ,Replaced from vehicles master,Low
+80,DQ02-inconsistent,daily_mileage,S1149|2025-06-06,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+81,DQ02-inconsistent,daily_mileage,S1152|2025-06-03,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+82,DQ02-inconsistent,daily_mileage,S1152|2025-06-16,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+83,DQ02-inconsistent,daily_mileage,S1155|2025-07-13,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+84,DQ02-inconsistent,daily_mileage,S1156|2025-06-24,division,Division spelling differs from vehicle master,Subway Division,Replaced from vehicles master,Low
+85,DQ03-missing,daily_mileage,B1004|2025-09-23,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+86,DQ03-missing,daily_mileage,B1007|2025-07-14,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+87,DQ03-missing,daily_mileage,B1010|2025-11-29,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+88,DQ03-missing,daily_mileage,B1012|2025-09-30,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+89,DQ03-missing,daily_mileage,B1016|2025-11-11,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+90,DQ03-missing,daily_mileage,B1035|2025-06-16,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+91,DQ03-missing,daily_mileage,B1037|2025-08-04,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+92,DQ03-missing,daily_mileage,B1040|2025-10-01,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+93,DQ03-missing,daily_mileage,B1041|2025-07-05,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+94,DQ03-missing,daily_mileage,B1042|2025-06-06,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+95,DQ03-missing,daily_mileage,B1051|2025-10-09,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+96,DQ03-missing,daily_mileage,B1053|2025-08-05,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+97,DQ03-missing,daily_mileage,B1056|2025-05-08,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+98,DQ03-missing,daily_mileage,A1066|2025-11-05,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+99,DQ03-missing,daily_mileage,A1076|2025-03-17,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+100,DQ03-missing,daily_mileage,A1080|2025-08-04,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+101,DQ03-missing,daily_mileage,A1082|2025-11-13,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+102,DQ03-missing,daily_mileage,L1089|2025-07-04,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+103,DQ03-missing,daily_mileage,L1099|2025-10-28,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+104,DQ03-missing,daily_mileage,L1101|2025-05-07,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+105,DQ03-missing,daily_mileage,L1104|2025-12-28,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+106,DQ03-missing,daily_mileage,L1105|2025-01-13,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+107,DQ03-missing,daily_mileage,L1110|2025-07-09,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+108,DQ03-missing,daily_mileage,L1110|2025-08-05,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+109,DQ03-missing,daily_mileage,S1116|2025-06-29,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+110,DQ03-missing,daily_mileage,S1117|2025-07-09,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+111,DQ03-missing,daily_mileage,S1122|2025-11-15,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+112,DQ03-missing,daily_mileage,S1124|2025-07-30,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+113,DQ03-missing,daily_mileage,S1126|2025-01-23,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+114,DQ03-missing,daily_mileage,S1129|2025-12-16,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+115,DQ03-missing,daily_mileage,S1133|2025-02-21,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+116,DQ03-missing,daily_mileage,S1135|2025-11-30,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+117,DQ03-missing,daily_mileage,S1136|2025-10-26,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+118,DQ03-missing,daily_mileage,S1139|2025-12-05,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+119,DQ03-missing,daily_mileage,S1143|2025-09-23,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+120,DQ03-missing,daily_mileage,S1147|2025-11-05,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+121,DQ03-missing,daily_mileage,S1149|2025-05-27,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+122,DQ03-missing,daily_mileage,S1154|2025-08-01,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+123,DQ03-missing,daily_mileage,S1155|2025-07-06,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+124,DQ03-missing,daily_mileage,S1158|2025-05-01,km,Missing km,,Set to NULL then imputed (vehicle median in-service km); flagged,High
+125,DQ04-range,daily_mileage,B1026|2025-11-04,km,Negative km,-30.9,Set to NULL then imputed (vehicle median in-service km); flagged,High
+126,DQ04-range,daily_mileage,B1049|2025-04-11,km,Negative km,-10.0,Set to NULL then imputed (vehicle median in-service km); flagged,High
+127,DQ04-range,daily_mileage,L1113|2025-02-26,km,Negative km,-161.2,Set to NULL then imputed (vehicle median in-service km); flagged,High
+128,DQ04-range,daily_mileage,S1134|2025-03-31,km,Negative km,-59.8,Set to NULL then imputed (vehicle median in-service km); flagged,High
+129,DQ04-range,daily_mileage,S1134|2025-08-23,km,Negative km,-147.9,Set to NULL then imputed (vehicle median in-service km); flagged,High
+130,DQ04-range,daily_mileage,S1145|2025-02-21,km,Negative km,-101.5,Set to NULL then imputed (vehicle median in-service km); flagged,High
+131,DQ04-range,daily_mileage,S1155|2025-03-15,km,Negative km,-108.3,Set to NULL then imputed (vehicle median in-service km); flagged,High
+132,DQ04-range,daily_mileage,S1155|2025-06-06,km,Negative km,-51.7,Set to NULL then imputed (vehicle median in-service km); flagged,High
+133,DQ04-range,daily_mileage,S1156|2025-02-25,km,Negative km,-53.2,Set to NULL then imputed (vehicle median in-service km); flagged,High
+134,DQ04-range,daily_mileage,S1156|2025-05-27,km,Negative km,-5.7,Set to NULL then imputed (vehicle median in-service km); flagged,High
+135,DQ04-range,daily_mileage,B1060|2025-08-27,km,Implausible km (>800/day),2146.9,Set to NULL then imputed (vehicle median in-service km); flagged,High
+136,DQ04-range,daily_mileage,A1070|2025-09-12,km,Implausible km (>800/day),1469.7,Set to NULL then imputed (vehicle median in-service km); flagged,High
+137,DQ04-range,daily_mileage,A1078|2025-01-05,km,Implausible km (>800/day),2047.8,Set to NULL then imputed (vehicle median in-service km); flagged,High
+138,DQ04-range,daily_mileage,A1078|2025-03-26,km,Implausible km (>800/day),1353.3,Set to NULL then imputed (vehicle median in-service km); flagged,High
+139,DQ04-range,daily_mileage,A1085|2025-01-26,km,Implausible km (>800/day),945.7,Set to NULL then imputed (vehicle median in-service km); flagged,High
+140,DQ04-range,daily_mileage,L1090|2025-05-09,km,Implausible km (>800/day),1036.6,Set to NULL then imputed (vehicle median in-service km); flagged,High
+141,DQ04-range,daily_mileage,A1075|2025-11-24,hours,Hours > 24 in a day,30.0,Re-derived as km / 22 km/h; flagged,Medium
+142,DQ04-range,daily_mileage,A1077|2025-04-19,hours,Hours > 24 in a day,30.0,Re-derived as km / 22 km/h; flagged,Medium
+143,DQ04-range,daily_mileage,L1097|2025-10-29,hours,Hours > 24 in a day,30.0,Re-derived as km / 22 km/h; flagged,Medium
+144,DQ04-range,daily_mileage,S1118|2025-07-11,hours,Hours > 24 in a day,30.0,Re-derived as km / 22 km/h; flagged,Medium
+145,DQ04-range,daily_mileage,S1119|2025-07-27,hours,Hours > 24 in a day,30.0,Re-derived as km / 22 km/h; flagged,Medium
+146,DQ01-duplicate,failures,F002117,failure_id,Duplicate failure record,F002117,Dropped (kept first),Medium
+147,DQ01-duplicate,failures,F001527,failure_id,Duplicate failure record,F001527,Dropped (kept first),Medium
+148,DQ01-duplicate,failures,F003331,failure_id,Duplicate failure record,F003331,Dropped (kept first),Medium
+149,DQ01-duplicate,failures,F000283,failure_id,Duplicate failure record,F000283,Dropped (kept first),Medium
+150,DQ01-duplicate,failures,F002701,failure_id,Duplicate failure record,F002701,Dropped (kept first),Medium
+151,DQ01-duplicate,failures,F000096,failure_id,Duplicate failure record,F000096,Dropped (kept first),Medium
+152,DQ01-duplicate,failures,F001400,failure_id,Duplicate failure record,F001400,Dropped (kept first),Medium
+153,DQ01-duplicate,failures,F003126,failure_id,Duplicate failure record,F003126,Dropped (kept first),Medium
+154,DQ05-traceability,failures,F000716,vehicle_id,Failure references unknown vehicle,B9999,Quarantined (excluded from KPIs),High
+155,DQ05-traceability,failures,F001673,vehicle_id,Failure references unknown vehicle,L8888,Quarantined (excluded from KPIs),High
+156,DQ05-traceability,failures,F002221,vehicle_id,Failure references unknown vehicle,X0001,Quarantined (excluded from KPIs),High
+157,DQ03-missing,failures,F000128,system,Missing system,,Set to 'Unknown',Medium
+158,DQ03-missing,failures,F000348,system,Missing system,,Set to 'Unknown',Medium
+159,DQ03-missing,failures,F000584,system,Missing system,,Set to 'Unknown',Medium
+160,DQ03-missing,failures,F000839,system,Missing system,,Set to 'Unknown',Medium
+161,DQ03-missing,failures,F001519,system,Missing system,,Set to 'Unknown',Medium
+162,DQ03-missing,failures,F001826,system,Missing system,,Set to 'Unknown',Medium
+163,DQ03-missing,failures,F001973,system,Missing system,,Set to 'Unknown',Medium
+164,DQ03-missing,failures,F002742,system,Missing system,,Set to 'Unknown',Medium
+165,DQ03-missing,failures,F002800,system,Missing system,,Set to 'Unknown',Medium
+166,DQ03-missing,failures,F002826,system,Missing system,,Set to 'Unknown',Medium
+167,DQ03-missing,failures,F002941,system,Missing system,,Set to 'Unknown',Medium
+168,DQ03-missing,failures,F003324,system,Missing system,,Set to 'Unknown',Medium
+169,DQ02-inconsistent,failures,F000168,system,Non-standard system label,brakes,Standardised to Brakes,Low
+170,DQ02-inconsistent,failures,F000240,system,Non-standard system label,door,Standardised to Doors,Low
+171,DQ02-inconsistent,failures,F000405,system,Non-standard system label,Brake,Standardised to Brakes,Low
+172,DQ02-inconsistent,failures,F000538,system,Non-standard system label,HVAC ,Standardised to HVAC,Low
+173,DQ02-inconsistent,failures,F000964,system,Non-standard system label,HVAC ,Standardised to HVAC,Low
+174,DQ02-inconsistent,failures,F001268,system,Non-standard system label,brakes,Standardised to Brakes,Low
+175,DQ02-inconsistent,failures,F001271,system,Non-standard system label,Brake,Standardised to Brakes,Low
+176,DQ02-inconsistent,failures,F001499,system,Non-standard system label,brakes,Standardised to Brakes,Low
+177,DQ02-inconsistent,failures,F001545,system,Non-standard system label,Doors ,Standardised to Doors,Low
+178,DQ02-inconsistent,failures,F001564,system,Non-standard system label,HVAC ,Standardised to HVAC,Low
+179,DQ02-inconsistent,failures,F001863,system,Non-standard system label,brakes,Standardised to Brakes,Low
+180,DQ02-inconsistent,failures,F001881,system,Non-standard system label,Doors ,Standardised to Doors,Low
+181,DQ02-inconsistent,failures,F001906,system,Non-standard system label,HVAC ,Standardised to HVAC,Low
+182,DQ02-inconsistent,failures,F001933,system,Non-standard system label,Brake,Standardised to Brakes,Low
+183,DQ02-inconsistent,failures,F002018,system,Non-standard system label,brakes,Standardised to Brakes,Low
+184,DQ02-inconsistent,failures,F002086,system,Non-standard system label,Doors ,Standardised to Doors,Low
+185,DQ02-inconsistent,failures,F002089,system,Non-standard system label,Brake,Standardised to Brakes,Low
+186,DQ02-inconsistent,failures,F002094,system,Non-standard system label,HVAC ,Standardised to HVAC,Low
+187,DQ02-inconsistent,failures,F002201,system,Non-standard system label,HVAC ,Standardised to HVAC,Low
+188,DQ02-inconsistent,failures,F002265,system,Non-standard system label,brakes,Standardised to Brakes,Low
+189,DQ02-inconsistent,failures,F002278,system,Non-standard system label,Doors ,Standardised to Doors,Low
+190,DQ02-inconsistent,failures,F002374,system,Non-standard system label,door,Standardised to Doors,Low
+191,DQ02-inconsistent,failures,F002423,system,Non-standard system label,HVAC ,Standardised to HVAC,Low
+192,DQ02-inconsistent,failures,F002566,system,Non-standard system label,Brake,Standardised to Brakes,Low
+193,DQ02-inconsistent,failures,F002617,system,Non-standard system label,Doors ,Standardised to Doors,Low
+194,DQ02-inconsistent,failures,F002728,system,Non-standard system label,brakes,Standardised to Brakes,Low
+195,DQ02-inconsistent,failures,F002806,system,Non-standard system label,door,Standardised to Doors,Low
+196,DQ02-inconsistent,failures,F002861,system,Non-standard system label,door,Standardised to Doors,Low
+197,DQ02-inconsistent,failures,F002996,system,Non-standard system label,HVAC ,Standardised to HVAC,Low
+198,DQ02-inconsistent,failures,F003196,system,Non-standard system label,brakes,Standardised to Brakes,Low
+199,DQ05-traceability,work_orders,WO000626,failure_id,WO references failure that does not exist,F92999,Kept; flagged orphan; excluded from failure-linked metrics,High
+200,DQ05-traceability,work_orders,WO000716,failure_id,WO references failure that does not exist,F000716,Kept; flagged orphan; excluded from failure-linked metrics,High
+201,DQ05-traceability,work_orders,WO000914,failure_id,WO references failure that does not exist,F93999,Kept; flagged orphan; excluded from failure-linked metrics,High
+202,DQ05-traceability,work_orders,WO001623,failure_id,WO references failure that does not exist,F91999,Kept; flagged orphan; excluded from failure-linked metrics,High
+203,DQ05-traceability,work_orders,WO001641,failure_id,WO references failure that does not exist,F94999,Kept; flagged orphan; excluded from failure-linked metrics,High
+204,DQ05-traceability,work_orders,WO001673,failure_id,WO references failure that does not exist,F001673,Kept; flagged orphan; excluded from failure-linked metrics,High
+205,DQ05-traceability,work_orders,WO002151,failure_id,WO references failure that does not exist,F90999,Kept; flagged orphan; excluded from failure-linked metrics,High
+206,DQ05-traceability,work_orders,WO002221,failure_id,WO references failure that does not exist,F002221,Kept; flagged orphan; excluded from failure-linked metrics,High
+207,DQ04-range,work_orders,WO000121,closed_date,Closed before opened,2025-10-21>2025-10-18,Dates swapped; flagged,Medium
+208,DQ04-range,work_orders,WO000454,closed_date,Closed before opened,2025-02-23>2025-02-20,Dates swapped; flagged,Medium
+209,DQ04-range,work_orders,WO000550,closed_date,Closed before opened,2025-03-11>2025-03-10,Dates swapped; flagged,Medium
+210,DQ04-range,work_orders,WO002064,closed_date,Closed before opened,2025-06-09>2025-06-06,Dates swapped; flagged,Medium
+211,DQ04-range,work_orders,WO002859,closed_date,Closed before opened,2025-11-12>2025-11-10,Dates swapped; flagged,Medium
+212,DQ04-range,work_orders,WO003067,closed_date,Closed before opened,2025-12-08>2025-12-04,Dates swapped; flagged,Medium
+213,DQ03-missing,work_orders,WO000820,labour_hours,Missing labour hours,,Left NULL (excluded from labour averages),Low
+214,DQ03-missing,work_orders,WO000858,labour_hours,Missing labour hours,,Left NULL (excluded from labour averages),Low
+215,DQ03-missing,work_orders,WO000902,labour_hours,Missing labour hours,,Left NULL (excluded from labour averages),Low
+216,DQ03-missing,work_orders,WO001031,labour_hours,Missing labour hours,,Left NULL (excluded from labour averages),Low
+217,DQ03-missing,work_orders,WO001343,labour_hours,Missing labour hours,,Left NULL (excluded from labour averages),Low
+218,DQ03-missing,work_orders,WO001544,labour_hours,Missing labour hours,,Left NULL (excluded from labour averages),Low
+219,DQ03-missing,work_orders,WO003195,labour_hours,Missing labour hours,,Left NULL (excluded from labour averages),Low
+220,DQ03-missing,work_orders,WO003245,labour_hours,Missing labour hours,,Left NULL (excluded from labour averages),Low
+221,DQ05-traceability,failures,F000019,failure_id,Failure has no work order,F000019,Flagged; reported in traceability view,Medium
+222,DQ05-traceability,failures,F000120,failure_id,Failure has no work order,F000120,Flagged; reported in traceability view,Medium
+223,DQ05-traceability,failures,F000367,failure_id,Failure has no work order,F000367,Flagged; reported in traceability view,Medium
+224,DQ05-traceability,failures,F000626,failure_id,Failure has no work order,F000626,Flagged; reported in traceability view,Medium
+225,DQ05-traceability,failures,F000666,failure_id,Failure has no work order,F000666,Flagged; reported in traceability view,Medium
+226,DQ05-traceability,failures,F000671,failure_id,Failure has no work order,F000671,Flagged; reported in traceability view,Medium
+227,DQ05-traceability,failures,F000914,failure_id,Failure has no work order,F000914,Flagged; reported in traceability view,Medium
+228,DQ05-traceability,failures,F001008,failure_id,Failure has no work order,F001008,Flagged; reported in traceability view,Medium
+229,DQ05-traceability,failures,F001377,failure_id,Failure has no work order,F001377,Flagged; reported in traceability view,Medium
+230,DQ05-traceability,failures,F001385,failure_id,Failure has no work order,F001385,Flagged; reported in traceability view,Medium
+231,DQ05-traceability,failures,F001537,failure_id,Failure has no work order,F001537,Flagged; reported in traceability view,Medium
+232,DQ05-traceability,failures,F001614,failure_id,Failure has no work order,F001614,Flagged; reported in traceability view,Medium
+233,DQ05-traceability,failures,F001623,failure_id,Failure has no work order,F001623,Flagged; reported in traceability view,Medium
+234,DQ05-traceability,failures,F001641,failure_id,Failure has no work order,F001641,Flagged; reported in traceability view,Medium
+235,DQ05-traceability,failures,F001766,failure_id,Failure has no work order,F001766,Flagged; reported in traceability view,Medium
+236,DQ05-traceability,failures,F001889,failure_id,Failure has no work order,F001889,Flagged; reported in traceability view,Medium
+237,DQ05-traceability,failures,F001914,failure_id,Failure has no work order,F001914,Flagged; reported in traceability view,Medium
+238,DQ05-traceability,failures,F002105,failure_id,Failure has no work order,F002105,Flagged; reported in traceability view,Medium
+239,DQ05-traceability,failures,F002145,failure_id,Failure has no work order,F002145,Flagged; reported in traceability view,Medium
+240,DQ05-traceability,failures,F002151,failure_id,Failure has no work order,F002151,Flagged; reported in traceability view,Medium
+241,DQ05-traceability,failures,F002194,failure_id,Failure has no work order,F002194,Flagged; reported in traceability view,Medium
+242,DQ05-traceability,failures,F002328,failure_id,Failure has no work order,F002328,Flagged; reported in traceability view,Medium
+243,DQ05-traceability,failures,F002636,failure_id,Failure has no work order,F002636,Flagged; reported in traceability view,Medium
+244,DQ05-traceability,failures,F003302,failure_id,Failure has no work order,F003302,Flagged; reported in traceability view,Medium
+245,DQ05-traceability,failures,F003307,failure_id,Failure has no work order,F003307,Flagged; reported in traceability view,Medium

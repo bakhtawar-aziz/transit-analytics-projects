@@ -1,0 +1,59 @@
+openapi: 3.0.3
+info: {title: Fleet Reliability API, version: 1.0.0, description: "Read API over the SYNTHETIC fleet reliability dataset (Project 1), plus one validated write endpoint."}
+servers: [{url: "http://localhost:5000"}]
+security: [{ApiKey: []}]
+components:
+  securitySchemes: {ApiKey: {type: apiKey, in: header, name: X-API-Key}}
+  parameters:
+    limit: {name: limit, in: query, schema: {type: integer, minimum: 1, maximum: 500, default: 50}}
+    offset: {name: offset, in: query, schema: {type: integer, minimum: 0, default: 0}}
+  schemas:
+    Error: {type: object, properties: {error: {type: object, properties: {code: {type: string}, message: {type: string}, details: {type: object, nullable: true}}}}}
+    FailureInput:
+      type: object
+      required: [vehicle_id, failure_date, system, severity]
+      properties:
+        vehicle_id: {type: string, example: L1100}
+        failure_date: {type: string, format: date, example: "2025-12-30"}
+        system: {type: string, enum: [Brakes, Doors, HVAC, Propulsion, Suspension, Electrical, Body, Unknown]}
+        severity: {type: string, enum: [Minor, Major, Service-Interrupting]}
+  responses:
+    Err: {description: Error, content: {application/json: {schema: {$ref: "#/components/schemas/Error"}}}}
+paths:
+  /health: {get: {summary: Liveness check (no key needed), security: [], responses: {"200": {description: ok}}}}
+  /api/v1/vehicles:
+    get: {summary: List vehicles, parameters: [{name: type, in: query, schema: {type: string}}, {name: division, in: query, schema: {type: string}}, {$ref: "#/components/parameters/limit"}, {$ref: "#/components/parameters/offset"}], responses: {"200": {description: Paged list}, "401": {$ref: "#/components/responses/Err"}}}
+  /api/v1/vehicles/{vehicle_id}:
+    get: {summary: Vehicle with failure and km totals, parameters: [{name: vehicle_id, in: path, required: true, schema: {type: string}}], responses: {"200": {description: Vehicle}, "404": {$ref: "#/components/responses/Err"}}}
+  /api/v1/vehicles/{vehicle_id}/failures:
+    get: {summary: Failures for one vehicle, parameters: [{name: vehicle_id, in: path, required: true, schema: {type: string}}, {$ref: "#/components/parameters/limit"}, {$ref: "#/components/parameters/offset"}], responses: {"200": {description: Paged list}, "404": {$ref: "#/components/responses/Err"}}}
+  /api/v1/failures:
+    get:
+      summary: List failures
+      parameters:
+        - {name: from, in: query, schema: {type: string, format: date}}
+        - {name: to, in: query, schema: {type: string, format: date}}
+        - {name: system, in: query, schema: {type: string}}
+        - {name: severity, in: query, schema: {type: string}}
+        - {name: vehicle_type, in: query, schema: {type: string}}
+        - {name: division, in: query, schema: {type: string}}
+        - {name: vehicle_id, in: query, schema: {type: string}}
+        - {$ref: "#/components/parameters/limit"}
+        - {$ref: "#/components/parameters/offset"}
+      responses: {"200": {description: Paged list}, "400": {$ref: "#/components/responses/Err"}}
+    post:
+      summary: Record a failure
+      requestBody: {required: true, content: {application/json: {schema: {$ref: "#/components/schemas/FailureInput"}}}}
+      responses: {"201": {description: Created (Location header)}, "400": {$ref: "#/components/responses/Err"}, "409": {$ref: "#/components/responses/Err"}, "422": {$ref: "#/components/responses/Err"}}
+  /api/v1/failures/{failure_id}:
+    get: {summary: Failure with linked work orders, parameters: [{name: failure_id, in: path, required: true, schema: {type: string}}], responses: {"200": {description: Failure}, "404": {$ref: "#/components/responses/Err"}}}
+  /api/v1/work-orders:
+    get: {summary: List work orders, parameters: [{name: vehicle_id, in: query, schema: {type: string}}, {name: status, in: query, schema: {type: string}}, {name: orphan, in: query, schema: {type: integer, enum: [0, 1]}}, {$ref: "#/components/parameters/limit"}, {$ref: "#/components/parameters/offset"}], responses: {"200": {description: Paged list}}}
+  /api/v1/kpis/reliability:
+    get: {summary: Failures per 100k km, MDBF, road calls, parameters: [{name: group_by, in: query, schema: {type: string, enum: [vehicle_type, division, month], default: vehicle_type}}, {name: from_month, in: query, schema: {type: string, example: "2025-01"}}, {name: to_month, in: query, schema: {type: string}}, {name: vehicle_type, in: query, schema: {type: string}}], responses: {"200": {description: KPI rows}, "400": {$ref: "#/components/responses/Err"}}}
+  /api/v1/kpis/availability:
+    get: {summary: Availability percentage, parameters: [{name: group_by, in: query, schema: {type: string, enum: [division, month], default: division}}], responses: {"200": {description: KPI rows}}}
+  /api/v1/audit/mileage:
+    get: {summary: Mileage audit flags, parameters: [{name: audit, in: query, schema: {type: string}}, {name: severity, in: query, schema: {type: string}}, {$ref: "#/components/parameters/limit"}, {$ref: "#/components/parameters/offset"}], responses: {"200": {description: Paged list}}}
+  /api/v1/data-quality/errors:
+    get: {summary: Data-quality error log, parameters: [{name: check, in: query, schema: {type: string}}, {name: severity, in: query, schema: {type: string}}, {name: table, in: query, schema: {type: string}}, {$ref: "#/components/parameters/limit"}, {$ref: "#/components/parameters/offset"}], responses: {"200": {description: Paged list}}}

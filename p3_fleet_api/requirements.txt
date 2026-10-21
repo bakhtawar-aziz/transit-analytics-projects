@@ -1,0 +1,2 @@
+flask>=3.0
+pandas>=2.0   # only for scripts/prepare_db.py

@@ -1,0 +1,10 @@
+check,severity,count
+DQ01-duplicate,Medium,38
+DQ02-inconsistent,Low,84
+DQ03-missing,High,40
+DQ03-missing,Low,8
+DQ03-missing,Medium,12
+DQ04-range,High,16
+DQ04-range,Medium,11
+DQ05-traceability,High,11
+DQ05-traceability,Medium,25

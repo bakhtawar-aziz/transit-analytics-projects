@@ -1,0 +1,61 @@
+division,month,vehicle_days,available_days,availability_pct
+East Garage,2025-01,620,568,91.61
+East Garage,2025-02,560,517,92.32
+East Garage,2025-03,620,546,88.06
+East Garage,2025-04,600,552,92.0
+East Garage,2025-05,620,569,91.77
+East Garage,2025-06,600,548,91.33
+East Garage,2025-07,620,580,93.55
+East Garage,2025-08,620,581,93.71
+East Garage,2025-09,600,561,93.5
+East Garage,2025-10,620,570,91.94
+East Garage,2025-11,600,540,90.0
+East Garage,2025-12,620,573,92.42
+Light Rail Div,2025-01,930,889,95.59
+Light Rail Div,2025-02,840,793,94.4
+Light Rail Div,2025-03,930,877,94.3
+Light Rail Div,2025-04,900,864,96.0
+Light Rail Div,2025-05,930,897,96.45
+Light Rail Div,2025-06,900,869,96.56
+Light Rail Div,2025-07,930,903,97.1
+Light Rail Div,2025-08,930,911,97.96
+Light Rail Div,2025-09,900,861,95.67
+Light Rail Div,2025-10,930,872,93.76
+Light Rail Div,2025-11,900,862,95.78
+Light Rail Div,2025-12,930,881,94.73
+North Garage,2025-01,1023,894,87.39
+North Garage,2025-02,924,819,88.64
+North Garage,2025-03,1023,903,88.27
+North Garage,2025-04,990,896,90.51
+North Garage,2025-05,1023,934,91.3
+North Garage,2025-06,990,919,92.83
+North Garage,2025-07,1023,925,90.42
+North Garage,2025-08,1023,928,90.71
+North Garage,2025-09,990,896,90.51
+North Garage,2025-10,1023,934,91.3
+North Garage,2025-11,990,927,93.64
+North Garage,2025-12,1023,932,91.1
+South Garage,2025-01,992,886,89.31
+South Garage,2025-02,896,798,89.06
+South Garage,2025-03,992,880,88.71
+South Garage,2025-04,960,886,92.29
+South Garage,2025-05,992,936,94.35
+South Garage,2025-06,960,893,93.02
+South Garage,2025-07,992,915,92.24
+South Garage,2025-08,992,920,92.74
+South Garage,2025-09,960,864,90.0
+South Garage,2025-10,992,919,92.64
+South Garage,2025-11,960,882,91.88
+South Garage,2025-12,992,888,89.52
+Subway Div,2025-01,1395,1361,97.56
+Subway Div,2025-02,1260,1207,95.79
+Subway Div,2025-03,1395,1344,96.34
+Subway Div,2025-04,1350,1276,94.52
+Subway Div,2025-05,1395,1348,96.63
+Subway Div,2025-06,1350,1313,97.26
+Subway Div,2025-07,1395,1364,97.78
+Subway Div,2025-08,1395,1360,97.49
+Subway Div,2025-09,1350,1332,98.67
+Subway Div,2025-10,1395,1359,97.42
+Subway Div,2025-11,1350,1307,96.81
+Subway Div,2025-12,1395,1347,96.56

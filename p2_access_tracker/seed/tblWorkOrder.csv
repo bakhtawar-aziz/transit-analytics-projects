@@ -1,0 +1,61 @@
+WOID,CarID,WOTypeID,PriorityID,WOStatusID,AssignedTechID,OpenedDate,DueDate,ClosedDate,OdometerKm,DefectDescription,ClosureNotes
+1,26,2,2,4,2,2025-02-28,2025-03-14,2025-03-01,702061,Intermittent traction fault code (WO 1),Repaired and tested OK
+2,37,1,1,4,2,2025-03-24,2025-04-07,2025-04-03,235926,Intermittent traction fault code (WO 2),Repaired and tested OK
+3,32,2,1,4,3,2025-09-01,2025-09-15,2025-09-06,99772,Brake pad wear beyond limit (WO 3),Repaired and tested OK
+4,34,1,3,3,3,2025-06-07,2025-06-21,,210864,Wheel bearing noise during acceleration (WO 4),
+5,40,2,2,4,4,2025-04-15,2025-04-29,2025-04-27,171982,Interior lighting panel flickering (WO 5),Repaired and tested OK
+6,39,1,1,4,4,2025-07-01,2025-07-15,2025-07-07,302715,Brake pad wear beyond limit (WO 6),Repaired and tested OK
+7,31,1,1,4,11,2025-01-06,2025-01-20,2025-01-17,84219,Brake pad wear beyond limit (WO 7),Repaired and tested OK
+8,30,1,2,1,1,2025-07-30,2025-08-13,,170336,HVAC not cooling in car interior (WO 8),
+9,2,3,2,4,7,2025-01-13,2025-01-27,2025-01-25,676608,Intermittent traction fault code (WO 9),Repaired and tested OK
+10,17,1,3,4,8,2025-10-11,2025-10-25,2025-10-12,738069,Coupler air leak detected (WO 10),Repaired and tested OK
+11,10,3,3,4,11,2025-09-05,2025-09-19,2025-09-06,499816,Interior lighting panel flickering (WO 11),Repaired and tested OK
+12,18,3,4,2,1,2025-01-27,2025-02-10,,575721,Brake pad wear beyond limit (WO 12),
+13,29,1,3,4,6,2025-03-17,2025-03-31,2025-03-24,52197,Brake pad wear beyond limit (WO 13),Repaired and tested OK
+14,15,2,2,4,3,2025-02-23,2025-03-09,2025-02-26,294498,Coupler air leak detected (WO 14),Repaired and tested OK
+15,2,3,3,4,9,2025-07-21,2025-08-04,2025-07-31,682125,Brake pad wear beyond limit (WO 15),Repaired and tested OK
+16,12,2,3,3,7,2025-05-24,2025-06-07,,848664,HVAC not cooling in car interior (WO 16),
+17,28,1,1,4,5,2025-02-12,2025-02-26,2025-02-23,898154,Brake pad wear beyond limit (WO 17),Repaired and tested OK
+18,11,1,3,4,11,2025-05-20,2025-06-03,2025-05-24,181069,Pantograph carbon strip worn (WO 18),Repaired and tested OK
+19,1,3,4,4,8,2025-01-15,2025-01-29,2025-01-19,498000,Intermittent traction fault code (WO 19),Repaired and tested OK
+20,22,2,1,2,3,2025-04-17,2025-05-01,,888994,Door fails to close fully on side B (WO 20),
+21,4,3,3,4,10,2025-02-18,2025-03-04,2025-03-01,577698,Intermittent traction fault code (WO 21),Repaired and tested OK
+22,16,1,2,4,1,2025-01-23,2025-02-06,2025-01-29,730181,Wheel bearing noise during acceleration (WO 22),Repaired and tested OK
+23,10,2,3,4,5,2025-07-29,2025-08-12,2025-07-30,493296,Intermittent traction fault code (WO 23),Repaired and tested OK
+24,19,3,3,3,12,2025-03-21,2025-04-04,,709986,HVAC not cooling in car interior (WO 24),
+25,3,1,3,4,9,2025-03-15,2025-03-29,2025-03-22,814749,Door fails to close fully on side B (WO 25),Repaired and tested OK
+26,17,1,3,4,8,2025-05-06,2025-05-20,2025-05-18,727937,Coupler air leak detected (WO 26),Repaired and tested OK
+27,17,1,1,4,8,2025-06-10,2025-06-24,2025-06-18,733486,Pantograph carbon strip worn (WO 27),Repaired and tested OK
+28,36,1,1,2,5,2025-04-18,2025-05-02,,105656,Interior lighting panel flickering (WO 28),
+29,5,1,4,4,5,2025-10-30,2025-11-13,2025-11-11,727184,Wheel bearing noise during acceleration (WO 29),Repaired and tested OK
+30,26,1,3,4,7,2025-01-18,2025-02-01,2025-01-26,698348,Pantograph carbon strip worn (WO 30),Repaired and tested OK
+31,13,1,1,4,7,2025-01-12,2025-01-26,2025-01-18,68699,Coupler air leak detected (WO 31),Repaired and tested OK
+32,18,1,3,1,7,2025-08-17,2025-08-31,,580031,Door fails to close fully on side B (WO 32),
+33,19,3,2,4,8,2025-09-11,2025-09-25,2025-09-14,711833,Coupler air leak detected (WO 33),Repaired and tested OK
+34,8,1,4,4,8,2025-04-01,2025-04-15,2025-04-05,689923,Intermittent traction fault code (WO 34),Repaired and tested OK
+35,12,1,3,4,5,2025-06-30,2025-07-14,2025-07-04,852106,Intermittent traction fault code (WO 35),Repaired and tested OK
+36,18,2,4,2,6,2025-06-28,2025-07-12,,579149,HVAC not cooling in car interior (WO 36),
+37,28,1,3,4,12,2025-06-14,2025-06-28,2025-06-15,907467,Interior lighting panel flickering (WO 37),Repaired and tested OK
+38,10,2,4,4,1,2025-09-30,2025-10-14,2025-10-02,507636,Door fails to close fully on side B (WO 38),Repaired and tested OK
+39,8,1,4,4,4,2025-02-25,2025-03-11,2025-03-06,686250,Coupler air leak detected (WO 39),Repaired and tested OK
+40,31,3,1,1,7,2025-10-02,2025-10-16,,90030,Pantograph carbon strip worn (WO 40),
+41,28,2,3,4,12,2025-07-14,2025-07-28,2025-07-15,909066,Coupler air leak detected (WO 41),Repaired and tested OK
+42,20,2,3,4,5,2025-04-15,2025-04-29,2025-04-19,191784,Brake pad wear beyond limit (WO 42),Repaired and tested OK
+43,14,2,1,4,3,2025-01-18,2025-02-01,2025-01-19,893594,Coupler air leak detected (WO 43),Repaired and tested OK
+44,34,1,3,3,6,2025-09-02,2025-09-16,,217249,Wheel bearing noise during acceleration (WO 44),
+45,36,1,3,4,2,2025-04-22,2025-05-06,2025-04-27,112346,Door fails to close fully on side B (WO 45),Repaired and tested OK
+46,16,2,3,4,2,2025-08-01,2025-08-15,2025-08-02,731347,Door fails to close fully on side B (WO 46),Repaired and tested OK
+47,21,1,4,4,11,2025-05-27,2025-06-10,2025-06-08,765158,Brake pad wear beyond limit (WO 47),Repaired and tested OK
+48,32,1,3,1,12,2025-03-14,2025-03-28,,90787,HVAC not cooling in car interior (WO 48),
+49,26,2,1,4,8,2025-03-28,2025-04-11,2025-03-30,710309,Wheel bearing noise during acceleration (WO 49),Repaired and tested OK
+50,7,2,2,4,3,2025-08-09,2025-08-23,2025-08-12,412574,Coupler air leak detected (WO 50),Repaired and tested OK
+51,24,1,2,4,3,2025-05-16,2025-05-30,2025-05-24,212284,Intermittent traction fault code (WO 51),Repaired and tested OK
+52,21,1,4,1,9,2025-02-08,2025-02-22,,763585,Intermittent traction fault code (WO 52),
+53,1,2,1,4,5,2025-09-06,2025-09-20,2025-09-12,500002,Intermittent traction fault code (WO 53),Repaired and tested OK
+54,29,1,4,4,12,2025-05-19,2025-06-02,2025-05-30,60320,Wheel bearing noise during acceleration (WO 54),Repaired and tested OK
+55,3,1,2,4,1,2025-04-20,2025-05-04,2025-04-30,823629,Wheel bearing noise during acceleration (WO 55),Repaired and tested OK
+56,3,1,1,2,7,2025-09-16,2025-09-30,,825439,HVAC not cooling in car interior (WO 56),
+57,27,3,3,4,7,2025-02-01,2025-02-15,2025-02-07,688339,Door fails to close fully on side B (WO 57),Repaired and tested OK
+58,28,1,3,4,10,2025-03-27,2025-04-10,2025-03-29,905213,Wheel bearing noise during acceleration (WO 58),Repaired and tested OK
+59,33,1,2,4,9,2025-04-03,2025-04-17,2025-04-08,903223,HVAC not cooling in car interior (WO 59),Repaired and tested OK
+60,20,2,1,2,10,2025-03-11,2025-03-25,,186568,Coupler air leak detected (WO 60),

@@ -1,0 +1,6 @@
+audit,ref,detail,severity
+A-division-month-reconciliation,East Garage 2025-04,"daily sum 94,248 vs reported 87,651 (+7.53%), nan imputed rows",High
+A-division-month-reconciliation,East Garage 2025-08,"daily sum 96,061 vs reported 107,570 (-10.70%), 1.0 imputed rows",High
+A-division-month-reconciliation,North Garage 2025-05,"daily sum 150,341 vs reported 139,817 (+7.53%), nan imputed rows",High
+A-division-month-reconciliation,South Garage 2025-09,"daily sum 134,968 vs reported 151,129 (-10.69%), 1.0 imputed rows",High
+A-division-month-reconciliation,Subway Div 2025-03,"daily sum 308,012 vs reported 344,956 (-10.71%), 2.0 imputed rows",High

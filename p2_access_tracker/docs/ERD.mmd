@@ -1,0 +1,13 @@
+erDiagram
+  tblCarType ||--o{ tblCar : "CarTypeID"
+  tblCarStatus ||--o{ tblCar : "CarStatusID"
+  tblLocation ||--o{ tblCar : "LocationID"
+  tblCar ||--o{ tblWorkOrder : "CarID"
+  tblWOType ||--o{ tblWorkOrder : "WOTypeID"
+  tblPriority ||--o{ tblWorkOrder : "PriorityID"
+  tblWOStatus ||--o{ tblWorkOrder : "WOStatusID"
+  tblTechnician ||--o{ tblWorkOrder : "AssignedTechID"
+  tblWorkOrder ||--o{ tblLabour : "WOID"
+  tblTechnician ||--o{ tblLabour : "TechID"
+  tblWorkOrder ||--o{ tblPartUsed : "WOID"
+  tblPart ||--o{ tblPartUsed : "PartID"

@@ -1,0 +1,4 @@
+age_band,vehicles,km,failures,failures_per_100k_km
+0-4 yrs,15,917063.4,293,31.95
+10+ yrs,85,5332687.8,1913,35.87
+5-9 yrs,60,3793481.9,1136,29.95

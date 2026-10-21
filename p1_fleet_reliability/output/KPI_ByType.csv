@@ -1,0 +1,5 @@
+vehicle_type,km,failures,road_calls,failures_per_100k_km,mdbf_km,road_calls_per_100k_km
+Bus-40ft,3316688.0,1600,240,48.24,2073.0,7.24
+Bus-Artic,1227940.0,868,142,70.69,1415.0,11.56
+LRV,1910024.0,402,58,21.05,4751.0,3.04
+Subway-Car,3588582.0,472,75,13.15,7603.0,2.09

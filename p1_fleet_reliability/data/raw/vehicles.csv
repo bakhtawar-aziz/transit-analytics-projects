@@ -1,0 +1,161 @@
+vehicle_id,vehicle_type,division,model_year,in_service_date
+B1001,Bus-40ft,North Garage,2009,2010-06-01
+B1002,Bus-40ft,South Garage,2017,2017-06-01
+B1003,Bus-40ft,East Garage,2014,2015-06-01
+B1004,Bus-40ft,North Garage,2009,2010-06-01
+B1005,Bus-40ft,South Garage,2011,2011-06-01
+B1006,Bus-40ft,East Garage,2015,2016-06-01
+B1007,Bus-40ft,North Garage,2019,2020-06-01
+B1008,Bus-40ft,South Garage,2018,2019-06-01
+B1009,Bus-40ft,East Garage,2015,2015-06-01
+B1010,Bus-40ft,North Garage,2020,2020-06-01
+B1011,Bus-40ft,South Garage,2015,2015-06-01
+B1012,Bus-40ft,East Garage,2010,2011-06-01
+B1013,Bus-40ft,North Garage,2019,2020-06-01
+B1014,Bus-40ft,South Garage,2014,2015-06-01
+B1015,Bus-40ft,East Garage,2016,2016-06-01
+B1016,Bus-40ft,North Garage,2014,2014-06-01
+B1017,Bus-40ft,South Garage,2009,2010-06-01
+B1018,Bus-40ft,East Garage,2021,2021-06-01
+B1019,Bus-40ft,North Garage,2020,2021-06-01
+B1020,Bus-40ft,South Garage,2012,2013-06-01
+B1021,Bus-40ft,East Garage,2010,2011-06-01
+B1022,Bus-40ft,North Garage,2018,2018-06-01
+B1023,Bus-40ft,South Garage,2009,2010-06-01
+B1024,Bus-40ft,East Garage,2014,2015-06-01
+B1025,Bus-40ft,North Garage,2018,2019-06-01
+B1026,Bus-40ft,South Garage,2019,2019-06-01
+B1027,Bus-40ft,East Garage,2013,2013-06-01
+B1028,Bus-40ft,North Garage,2015,2015-06-01
+B1029,Bus-40ft,South Garage,2016,2016-06-01
+B1030,Bus-40ft,East Garage,2019,2020-06-01
+B1031,Bus-40ft,North Garage,2021,2022-06-01
+B1032,Bus-40ft,South Garage,2013,2014-06-01
+B1033,Bus-40ft,East Garage,2014,2014-06-01
+B1034,Bus-40ft,North Garage,2021,2021-06-01
+B1035,Bus-40ft,South Garage,2009,2009-06-01
+B1036,Bus-40ft,East Garage,2019,2019-06-01
+B1037,Bus-40ft,North Garage,2014,2014-06-01
+B1038,Bus-40ft,South Garage,2018,2018-06-01
+B1039,Bus-40ft,East Garage,2012,2012-06-01
+B1040,Bus-40ft,North Garage,2016,2017-06-01
+B1041,Bus-40ft,South Garage,2022,2022-06-01
+B1042,Bus-40ft,East Garage,2010,2011-06-01
+B1043,Bus-40ft,North Garage,2017,2018-06-01
+B1044,Bus-40ft,South Garage,2009,2009-06-01
+B1045,Bus-40ft,East Garage,2019,2020-06-01
+B1046,Bus-40ft,North Garage,2014,2015-06-01
+B1047,Bus-40ft,South Garage,2020,2020-06-01
+B1048,Bus-40ft,East Garage,2021,2021-06-01
+B1049,Bus-40ft,North Garage,2011,2012-06-01
+B1050,Bus-40ft,South Garage,2017,2017-06-01
+B1051,Bus-40ft,East Garage,2020,2020-06-01
+B1052,Bus-40ft,North Garage,2020,2020-06-01
+B1053,Bus-40ft,South Garage,2019,2020-06-01
+B1054,Bus-40ft,East Garage,2019,2020-06-01
+B1055,Bus-40ft,North Garage,2015,2016-06-01
+B1056,Bus-40ft,South Garage,2012,2013-06-01
+B1057,Bus-40ft,East Garage,2016,2016-06-01
+B1058,Bus-40ft,North Garage,2015,2016-06-01
+B1059,Bus-40ft,South Garage,2008,2008-06-01
+B1060,Bus-40ft,East Garage,2011,2011-06-01
+A1061,Bus-Artic,North Garage,2014,2015-06-01
+A1062,Bus-Artic,South Garage,2017,2017-06-01
+A1063,Bus-Artic,North Garage,2020,2021-06-01
+A1064,Bus-Artic,South Garage,2009,2010-06-01
+A1065,Bus-Artic,North Garage,2016,2017-06-01
+A1066,Bus-Artic,South Garage,2016,2017-06-01
+A1067,Bus-Artic,North Garage,2009,2010-06-01
+A1068,Bus-Artic,South Garage,2019,2019-06-01
+A1069,Bus-Artic,North Garage,2017,2017-06-01
+A1070,Bus-Artic,South Garage,2013,2013-06-01
+A1071,Bus-Artic,North Garage,2022,2022-06-01
+A1072,Bus-Artic,South Garage,2012,2012-06-01
+A1073,Bus-Artic,North Garage,2022,2023-06-01
+A1074,Bus-Artic,South Garage,2008,2008-06-01
+A1075,Bus-Artic,North Garage,2020,2020-06-01
+A1076,Bus-Artic,South Garage,2020,2020-06-01
+A1077,Bus-Artic,North Garage,2021,2021-06-01
+A1078,Bus-Artic,South Garage,2014,2015-06-01
+A1079,Bus-Artic,North Garage,2009,2010-06-01
+A1080,Bus-Artic,South Garage,2015,2016-06-01
+A1081,Bus-Artic,North Garage,2022,2023-06-01
+A1082,Bus-Artic,South Garage,2014,2014-06-01
+A1083,Bus-Artic,North Garage,2014,2015-06-01
+A1084,Bus-Artic,South Garage,2012,2012-06-01
+A1085,Bus-Artic,North Garage,2013,2013-06-01
+L1086,LRV,Light Rail Div,2009,2009-06-01
+L1087,LRV,Light Rail Div,2019,2020-06-01
+L1088,LRV,Light Rail Div,2018,2018-06-01
+L1089,LRV,Light Rail Div,2018,2018-06-01
+L1090,LRV,Light Rail Div,2021,2022-06-01
+L1091,LRV,Light Rail Div,2022,2022-06-01
+L1092,LRV,Light Rail Div,2015,2016-06-01
+L1093,LRV,Light Rail Div,2015,2015-06-01
+L1094,LRV,Light Rail Div,2010,2010-06-01
+L1095,LRV,Light Rail Div,2011,2011-06-01
+L1096,LRV,Light Rail Div,2018,2019-06-01
+L1097,LRV,Light Rail Div,2017,2017-06-01
+L1098,LRV,Light Rail Div,2022,2022-06-01
+L1099,LRV,Light Rail Div,2013,2013-06-01
+L1100,LRV,Light Rail Div,2013,2014-06-01
+L1101,LRV,Light Rail Div,2013,2014-06-01
+L1102,LRV,Light Rail Div,2015,2016-06-01
+L1103,LRV,Light Rail Div,2014,2014-06-01
+L1104,LRV,Light Rail Div,2019,2020-06-01
+L1105,LRV,Light Rail Div,2011,2012-06-01
+L1106,LRV,Light Rail Div,2011,2012-06-01
+L1107,LRV,Light Rail Div,2019,2019-06-01
+L1108,LRV,Light Rail Div,2019,2019-06-01
+L1109,LRV,Light Rail Div,2009,2009-06-01
+L1110,LRV,Light Rail Div,2014,2015-06-01
+L1111,LRV,Light Rail Div,2009,2009-06-01
+L1112,LRV,Light Rail Div,2018,2018-06-01
+L1113,LRV,Light Rail Div,2018,2018-06-01
+L1114,LRV,Light Rail Div,2020,2021-06-01
+L1115,LRV,Light Rail Div,2016,2016-06-01
+S1116,Subway-Car,Subway Div,2014,2015-06-01
+S1117,Subway-Car,Subway Div,2008,2009-06-01
+S1118,Subway-Car,Subway Div,2015,2016-06-01
+S1119,Subway-Car,Subway Div,2017,2017-06-01
+S1120,Subway-Car,Subway Div,2012,2013-06-01
+S1121,Subway-Car,Subway Div,2010,2011-06-01
+S1122,Subway-Car,Subway Div,2009,2010-06-01
+S1123,Subway-Car,Subway Div,2017,2017-06-01
+S1124,Subway-Car,Subway Div,2019,2019-06-01
+S1125,Subway-Car,Subway Div,2019,2019-06-01
+S1126,Subway-Car,Subway Div,2010,2010-06-01
+S1127,Subway-Car,Subway Div,2010,2010-06-01
+S1128,Subway-Car,Subway Div,2017,2017-06-01
+S1129,Subway-Car,Subway Div,2018,2018-06-01
+S1130,Subway-Car,Subway Div,2010,2011-06-01
+S1131,Subway-Car,Subway Div,2019,2019-06-01
+S1132,Subway-Car,Subway Div,2012,2013-06-01
+S1133,Subway-Car,Subway Div,2022,2023-06-01
+S1134,Subway-Car,Subway Div,2014,2014-06-01
+S1135,Subway-Car,Subway Div,2017,2018-06-01
+S1136,Subway-Car,Subway Div,2012,2012-06-01
+S1137,Subway-Car,Subway Div,2010,2011-06-01
+S1138,Subway-Car,Subway Div,2014,2014-06-01
+S1139,Subway-Car,Subway Div,2015,2016-06-01
+S1140,Subway-Car,Subway Div,2008,2008-06-01
+S1141,Subway-Car,Subway Div,2012,2012-06-01
+S1142,Subway-Car,Subway Div,2018,2018-06-01
+S1143,Subway-Car,Subway Div,2014,2015-06-01
+S1144,Subway-Car,Subway Div,2010,2011-06-01
+S1145,Subway-Car,Subway Div,2016,2016-06-01
+S1146,Subway-Car,Subway Div,2020,2020-06-01
+S1147,Subway-Car,Subway Div,2022,2022-06-01
+S1148,Subway-Car,Subway Div,2016,2017-06-01
+S1149,Subway-Car,Subway Div,2020,2020-06-01
+S1150,Subway-Car,Subway Div,2012,2012-06-01
+S1151,Subway-Car,Subway Div,2013,2014-06-01
+S1152,Subway-Car,Subway Div,2008,2009-06-01
+S1153,Subway-Car,Subway Div,2016,2016-06-01
+S1154,Subway-Car,Subway Div,2012,2013-06-01
+S1155,Subway-Car,Subway Div,2012,2012-06-01
+S1156,Subway-Car,Subway Div,2017,2018-06-01
+S1157,Subway-Car,Subway Div,2009,2009-06-01
+S1158,Subway-Car,Subway Div,2011,2012-06-01
+S1159,Subway-Car,Subway Div,2018,2019-06-01
+S1160,Subway-Car,Subway Div,2022,2023-06-01

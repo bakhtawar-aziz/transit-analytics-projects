@@ -1,0 +1,5 @@
+PriorityID,PriorityName,TargetHours
+1,Critical,24
+2,High,72
+3,Normal,168
+4,Low,336
